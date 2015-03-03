@@ -1,0 +1,182 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Open Sans', sans-serif; }
+
+.unanimate {
+  transform: translate(-522px, -246px) scale(0.02, 0.02); }
+
+h1.title {
+  text-align: left;
+  font-size: 48px;
+  margin-left: 30px;
+  background: #e5e5e5;
+  position: relative;
+  z-index: 2;
+  display: inline;
+  padding-right: 30px; }
+
+.divider {
+  top: 38px;
+  width: 100%;
+  height: 1px;
+  background: #999999;
+  position: absolute;
+  z-index: 0; }
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 200;
+  text-align: left; }
+
+.info {
+  width: 350px;
+  margin: 0 auto; }
+
+.my-cat-image {
+  margin: 0 auto; }
+
+.my-cat-graph {
+  transition: all .5s;
+  width: 600px; }
+
+.node {
+  cursor: pointer; }
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px; }
+
+.node--leaf {
+  fill: white; }
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  font-size: 13px;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff; }
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none; }
+
+.inner-node {
+  opacity: 1; }
+
+.final {
+  opacity: 1; }
+
+body {
+  background: #e5e5e5; }
+
+.hidden {
+  display: none !important; }
+
+.my-cat-graph {
+  padding-top: 80px;
+  float: left; }
+
+.sidebar {
+  width: 30%;
+  float: left; }
+
+.my-cat-image {
+  width: 240px; }
+
+.parent-node {
+  fill: #fff !important; }
+
+.Firmicutes.upper-node {
+  fill: #ffa9f4 !important; }
+
+.Firmicutes.inner-node {
+  fill: #ff76ed !important; }
+
+.Firmicutes.lower-node {
+  fill: #ff10e0 !important; }
+
+.Firmicutes.final {
+  fill: #a90093 !important; }
+
+.Proteobacteria.upper-node {
+  fill: #f38282 !important; }
+
+.Proteobacteria.inner-node {
+  fill: #ef5353 !important; }
+
+.Proteobacteria.lower-node {
+  fill: #c91313 !important; }
+
+.Proteobacteria.final {
+  fill: #6c0a0a !important; }
+
+.Bacteroidetes.upper-node {
+  fill: #fed18e !important; }
+
+.Bacteroidetes.inner-node {
+  fill: #febc5b !important; }
+
+.Bacteroidetes.lower-node {
+  fill: #f19102 !important; }
+
+.Bacteroidetes.final {
+  fill: #8c5401 !important; }
+
+.Actinobacteria.upper-node {
+  fill: #77a7ee !important; }
+
+.Actinobacteria.inner-node {
+  fill: #4a8ae8 !important; }
+
+.Actinobacteria.lower-node {
+  fill: #1757b5 !important; }
+
+.Actinobacteria.final {
+  fill: #0b2b5b !important; }
+
+.inner-node {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.final {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.lower-node {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s; }
+
+.zoom-depth1 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+
+.zoom-depth2 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth2 .lower-node {
+  visibility: visible;
+  opacity: 1; }
+
+.zoom-depth3 .inner-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth3 .lower-node {
+  visibility: visible;
+  opacity: 1; }
+.zoom-depth3 .final {
+  visibility: visible;
+  opacity: 1; }
+
+.micro-graph {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 30px; }
+
+.graph-title {
+  position: relative;
+  top: 130px;
+  left: 200px; }
