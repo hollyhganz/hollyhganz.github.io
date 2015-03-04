@@ -3,7 +3,7 @@
  "children": [
   {
    "name": "Firmicutes",
-   "desc": "<strong>Firmicutes</strong> are the most abundant phylum of bacteria in the gut of cats or humans. Studies of the human microbiome suggest that these bacteria are important in how we process food into energy. They could be linked to diabetes and obesity.",
+   "desc": "<strong>Firmicutes</strong> is the most abundant phylum of bacteria in the gut of both cats and humans. Studies of the human microbiome suggest that these bacteria are important in how we process food into energy. They could be linked to diabetes and obesity.",
    "children": [
     {
      "name": "Clostridia",
