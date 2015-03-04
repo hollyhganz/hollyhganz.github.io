@@ -43,7 +43,7 @@
   },
   {
    "name": "Proteobacteria",
-   "desc": "<strong>Proteobacteria</strong> is a phylum of bacteria that includes some pathogens (Salmonella, Vibrio, Helicobacter, and Yersinia) as well as beneficial bacteria (Escherichia). In general, Proteobacteria are abundant in the mouth and throat and less abundant in the gut microbiome in people. Harmless strains of Escherichia coli are commonly found in the lower intestine of animals where they produce vitamin K<sub>2</sub> and protect the intestine from pathogen invasion.",
+   "desc": "<strong>Proteobacteria</strong> is a phylum of bacteria that includes some pathogens (e.g., <i>Salmonella, Vibrio, Helicobacter,</i> and <i>Yersinia</i>) as well as beneficial bacteria (e.g., <i>Escherichia</i>). In general, Proteobacteria are abundant in the mouth and throat and less abundant in the gut microbiome in people. Harmless strains of Escherichia coli are commonly found in the lower intestine of animals where they produce vitamin K<sub>2</sub> and protect the intestine from pathogen invasion.",
    "children": [
     {"name": "Betaproteobacteria", "size": 82},
     {"name": "Alphaproteobacteria", "size": 50},
